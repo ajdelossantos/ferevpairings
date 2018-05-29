@@ -892,7 +892,3 @@ function fillCorrinClass(unit) {
     $('select').formSelect();
 }
 
-// function enableCaretDropdownTrigger () {
-//     const carets = document.querySelectorAll(".caret");
-//     carets.forEach(caret => caret.classList.add("dropdown-trigger"));
-// }
