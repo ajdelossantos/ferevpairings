@@ -1,0 +1,111 @@
+main {
+    display: grid;
+    width: 100%;
+    padding: 40px;
+    grid-gap: 40px;
+    align-self: center;
+    justify-self: center;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.select-wrapper input.select-dropdown {
+    padding: 5px 2px !important;
+    height: 2rem;
+    transition: ease 200ms;
+    overflow-wrap: break-word;
+}
+
+.select-wrapper input.select-dropdown:hover {
+    background-color: #DDD !important;
+}
+
+input {
+    background-color: #eeeeee !important;
+    border-radius: 2px !important;
+    padding: 0px 4px !important;
+    font-size: 13px !important;
+}
+
+table, tr, td {
+    padding: 5px;
+}
+
+table {
+    margin: 20px 0px;
+}
+
+.content__container{
+    display: grid;
+    grid-gap: 20px;
+}
+
+.content__item {
+    padding: 40px 20px;
+    border: 1px solid rgba(180, 180, 180, .85);
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px 0px rgba(136,136,136,0.85);
+}
+
+.odd {
+    background: #dfeae7;
+}
+
+.even {
+    background: #c1cfdd;
+}
+
+.clF, .clK {
+    width: 120px;
+}
+
+.sp, .apl, .spl {
+    width: 90px;
+}
+
+.stats-label {
+    font-weight: bold;
+    height: 80px;
+}
+
+.sv {
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.n {
+    width: 100px;
+}
+
+.cs {
+    width: 50px;
+}
+
+.ra {
+    text-align: center;
+}
+
+.lpad {
+    padding-left:30px;
+}
+
+#info {
+    text-align: right;
+    font-size: 11px;
+}
+
+.fyi {
+    padding-left: 1em;
+    margin-left: 1em;
+}
+
+#footer {
+    font-size: 14px;
+}
+
+#revSpoiler {
+    display: none;
+}
