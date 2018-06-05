@@ -11,6 +11,15 @@ body {
     background-color: lightgray;
 }
 
+td {
+    width: 80px;
+}
+
+td .select-wrapper {
+    width: 100%;
+    max-width: 100px;
+}
+
 .select-wrapper input.select-dropdown {
     padding: 5px 2px !important;
     height: 2rem;
@@ -35,6 +44,15 @@ table, tr, td {
 
 table {
     margin: 20px 0px;
+}
+
+#corrinBoonBane .select-wrapper {
+    width: 100%;
+    max-width: none;
+}
+
+#corrinBoonBane td {
+    text-align: center;
 }
 
 .content__container{
